@@ -45,6 +45,7 @@ h5 {
     background-color: black;
 }
 
+
 ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style-type: none;
@@ -107,34 +108,33 @@ h2{
     padding: 5px;
 }
 
+#Interests {
+    padding-bottom: 5px;
+}
+
 footer {
     color: ghostwhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.18em;
     font-weight: lighter;
     padding: 25px;
-  
-}
-
-h4 {
-  
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #contactMe {
     margin-left: 20%;
-    
 }
 
 .heading {
     text-decoration: underline;
     font-size: 1.20em;
 }
+
 .job {
     text-decoration: underline;
     font-size: 1.25em;
 }
-
-
 
 form {
     margin-bottom: 20px;
