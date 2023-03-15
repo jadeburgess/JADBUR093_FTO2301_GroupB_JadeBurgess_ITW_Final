@@ -66,23 +66,38 @@ a {
     color: ghostwhite;
 }
 
+li a:link {
+    color: whitesmoke
+}
+
+li a:visited {
+    color: white;
+}
+
 li a:hover {
-    background-color: darkgrey;
-  }
+    color: gray;
+    text-decoration: underline;
+}
+
+li a:active {
+    color: ghostwhite;
+    text-decoration: underline;
+
+}
 
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: ghostwhite;
-    background-color: rgb(40, 27, 56);
     padding: 20px;
     border-color: ghostwhite;
     width: 500px;
     height: 25px;
     margin-left: auto;
     margin-right: auto;
-
+    background-color: rgb(40, 27, 56);
 }
+
 
 .info {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -95,17 +110,19 @@ h2{
 footer {
     color: ghostwhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 30px; 
-    margin-right: 30px;
     font-size: 1.18em;
     font-weight: lighter;
-    padding: 1px;
+    padding: 25px;
+  
 }
+
+h4 {
+  
+}
+
 #contactMe {
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 20%;
+    
 }
 
 .heading {
@@ -117,13 +134,9 @@ footer {
     font-size: 1.25em;
 }
 
-.contactForm {
-    margin-left: 20px;
-}
+
 
 form {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 20px;
     width: 300px;
 }
