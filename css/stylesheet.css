@@ -64,9 +64,8 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: ghostwhite;
-    background-color: black;
+    background-color: rgb(40, 27, 56);
     padding: 20px;
-    border-width: 10px;
     border-color: ghostwhite;
     width: 500px;
     height: 25px;
@@ -96,4 +95,12 @@ footer {
     padding: 1px;
 }
 
+.heading {
+    text-decoration: underline;
+    font-size: 1.20em;
+}
+.subheading {
+    text-decoration: underline;
+    font-size: 1.25em;
+}
 
