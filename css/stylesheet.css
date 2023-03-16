@@ -1,16 +1,5 @@
 
 
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: ghostwhite;
-    background-color: black;
-    text-align: center;
-    font-size: 2em;
-    padding: 10px;
-    padding-bottom: 4px;
-    margin-bottom: 0%;
-}
-
 h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: ghostwhite;
@@ -22,16 +11,6 @@ h6 {
     margin-top: 0%;
 }
 
-#jadeResumePic {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border-width: 1px;
-    border-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
 
 h5 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -153,7 +132,106 @@ form {
 /*Responsive Design*/
 
 /*Desktop*/
+@media only screen and (max-width: 3000px){
+#jadeResumePic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: ghostwhite;
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    padding-bottom: 4px;
+    margin-bottom: 0%;
+}
+
+}
+
 
 /*Laptop*/
+@media only screen and (max-width: 1200px){
+#jadeResumePic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: ghostwhite;
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    padding-bottom: 4px;
+    margin-bottom: 0%;
+}
+
+}
+
+/*Tablet*/
+@media only screen and (max-width: 800px){
+#jadeResumePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: ghostwhite;
+    background-color: black;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 5px;
+    padding-bottom: 4px;
+    margin-bottom: 0%;
+}
+
+}
 
 /*Moblile*/
+@media only screen and (max-width: 400px){
+#jadeResumePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: ghostwhite;
+    background-color: black;
+    text-align: center;
+    font-size: 2.80em;
+    padding: 10px;
+    padding-bottom: 4px;
+    margin-bottom: 0%;
+}
+
+}
