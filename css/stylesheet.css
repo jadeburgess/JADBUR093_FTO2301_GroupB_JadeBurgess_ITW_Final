@@ -82,6 +82,8 @@ footer {
 
 #contactMe {
     margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .heading {
